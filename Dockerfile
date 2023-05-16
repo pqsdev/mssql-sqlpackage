@@ -1,7 +1,7 @@
 # SQL Server Command Line Tools
 FROM ubuntu:16.04
 
-LABEL maintainer="pqs.com.ar"
+LABEL maintainer="it_infra@pqs.com.ar"
 
 # apt-get and system utilities
 RUN apt-get update && apt-get install -y \
